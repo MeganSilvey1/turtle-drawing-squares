@@ -1,0 +1,60 @@
+import turtle
+
+#Defining the space
+def draw_squares():
+    window = turtle.Screen()
+    window.bgcolor("red")
+
+#turtle 1 drawing 
+    brad = turtle.Turtle()
+    brad.shape("turtle")
+    brad.color("yellow")
+    brad.speed(3)
+
+    i = 0
+    while (i < 4):
+        brad.forward(300)
+        brad.right(90)
+        i = i+1
+
+#turtle 2 drawing 
+    bob = turtle.Turtle()
+    bob.shape("turtle")
+    bob.color("blue")
+    bob.speed(3)
+
+    i = 0
+    while (i < 4):
+        bob.backward(300)
+        bob.right(90)
+        i = i+1
+
+#turtle 3 drawing 
+    barry = turtle.Turtle()
+    barry.shape("turtle")
+    barry.color("green")
+    barry.speed(3)
+    barry.right(90)
+
+    i = 0
+    while (i < 4):
+        barry.forward(300)
+        barry.right(90)
+        i = i+1
+        
+#turtle 4 drawing 
+    billy = turtle.Turtle()
+    billy.shape("turtle")
+    billy.color("purple")
+    billy.speed(3)
+    billy.left(90)
+
+    i = 0
+    while (i < 4):
+        billy.forward(300)
+        billy.right(90)
+        i = i + 1
+
+    window.exitonclick()
+
+draw_squares()
